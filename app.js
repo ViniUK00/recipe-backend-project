@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const recipeRoutes = require("./router/recipeRoutes");
+const recipeRoutes = require("./src/router/recipeRoutes");
 
 const app = express();
 app.use(express.json());
